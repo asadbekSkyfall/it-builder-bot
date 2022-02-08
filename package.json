@@ -1,0 +1,26 @@
+{
+  "name": "itbuilderbot",
+  "version": "1.0.0",
+  "description": "Telegram bot for learning programming languages",
+  "main": "index.js",
+
+  "scripts": {
+    "start": "node test.js",
+    "dev": "nodemon test.js",
+    "back": "nohup node test &",
+    "pm2": "pm2 start test.js"
+  },
+  "keywords": [
+    "bot",
+    "telegram-bot"
+  ],
+  "author": "Asadbek Abduganiev",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "telegraf": "^4.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

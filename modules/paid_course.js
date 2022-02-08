@@ -1,0 +1,9 @@
+const paid_course = {
+    html: `In this video, you'll learn the basics of HTML and CSS, which are essential for creating websites and are already doing some pretty serious work in this area.`,
+    js: `In this course, we will learn the JavaScript language. We will learn how to work with HTML applications, handle events in JavaScript. Consider creating animations, working with regular expressions, and private library projects written in pure JavaScript without any dependencies on external libraries or frameworks.`,
+    jquery: `The course consists of 4 chapters, in which you will learn how to work with the DOM tree. You will learn how to create, delete, clone elements, add new elements to the page, manage attributes and classes of HTML elements. You will be able to download the test stand in the first lesson and practice on it until the very last, thanks to this you will better absorb all the material.`,
+    git: `In this video, we will get acquainted with the Git version control system and learn how to work with it. We will use Git, keeping our repositories on GitHub. I showed you in detail and with examples how to work with Git and GitHub. I will tell you what a version control system is and we will start using the Git system.`,
+    frontend: `This course is aimed at teaching how to work with sites and programming in JavaScript, all material covers natural languages. You will receive a lot of useful materials and together we will put the practical application into practice of complex projects, step by step. , Gulp.\n- total 163 lessons, 32 of the average free\n- total duration of video lessons 35.5 hours`
+}
+
+module.exports = paid_course
